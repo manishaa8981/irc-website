@@ -116,16 +116,17 @@ export const HeroBanner = () => {
             custom={0}
             className="text-primary-soft tracking-wide font-semibold text-xs sm:text-base"
           >
-            Hands-on Degrees
-          </motion.p>
+            Global Robotics Education
+           </motion.p>
 
           <motion.h1
             variants={textVariant}
             custom={1}
             className="mt-4 text-3xl sm:text-6xl lg:text-7xl font-extrabold text-primary-soft leading-tight"
           >
-            Build Robots <br />
-            <span className="text-primary-soft">Build Future</span>
+            <span className="text-primary-soft">
+              Build Tomorrow's Innovators Today
+            </span>
           </motion.h1>
 
           <motion.p

@@ -33,7 +33,7 @@ export const Footer = () => {
           <div className="space-y-5">
             <div className="bg-white backdrop-blur-xl rounded-2xl p-4 shadow-xl w-fit">
               <Image
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="logo"
                 width={140}
                 height={60}

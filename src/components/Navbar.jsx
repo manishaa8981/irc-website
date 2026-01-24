@@ -107,13 +107,13 @@ export default function Navbar() {
         {/* LOGO */}
         <div className="flex items-center flex-shrink-0">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="Robotica Institute of Technology"
-            width={220}
-            height={50}
+            width={409}
+            height={100}
             priority
             className="
-      h-8 sm:h-10 lg:h-12
+      h-8 sm:h-10 lg:h-20
       w-auto
       object-contain
     "
@@ -244,7 +244,7 @@ export default function Navbar() {
               transition={{ duration: 0.25 }}
             >
               <div className="flex items-center justify-between bg-white p-5 border-b border-white/10">
-                <Image src="/logo.jpg" alt="Logo" width={90} height={10} />
+                <Image src="/logo.png" alt="Logo" width={90} height={10} />
                 <button
                   onClick={() => setIsOpen(false)}
                   className="text-black hover:text-black p-1"
