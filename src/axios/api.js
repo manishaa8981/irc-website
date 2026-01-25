@@ -95,9 +95,15 @@ export const getVacanciesApi = () => Api.get("/api/vacancy");
 export const getVacancyBySlugApi = (slug) =>
   Api.get(`/api/vacancy/slug/${slug}`);
 
-// Job applications
+
+// Job Application
 export const applyJobApi = (vacancyId, data) =>
-  Api.post(`/api/jobApplications/vacancies/${vacancyId}/apply`, data);
+  Api.post(`/api/jobApplications/vacancies/${vacancyId}/apply`, data, {
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
+  });
+
 
 // Trademark
 export const getTrademarksPublicApi = () => Api.get("/api/trademarks");
