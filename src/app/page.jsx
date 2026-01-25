@@ -77,19 +77,11 @@ function HomeContent() {
     // </section>
     <main className="w-full overflow-x-hidden">
       <HeroBanner />
-
       <MottoPage />
-
       <Objectives />
-
       <CoursesPage />
-
-      {/* <CorePrograms /> */}
-
       <IndustryPartnersCarousel />
-
       <OperatingModel />
-
       <WhyChooseUs />
     </main>
   );

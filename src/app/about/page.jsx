@@ -6,6 +6,7 @@ import { Suspense, useEffect, useState } from "react";
 
 import { getAboutUsApi } from "../../axios/api";
 import Founders from "../../components/home-components/Founders";
+import TrademarkCarousel from "../../components/home-components/Trademark";
 
 function AboutUs() {
   const searchParams = useSearchParams();
@@ -121,6 +122,7 @@ function AboutUs() {
         </div>
 
         <Founders />
+        <TrademarkCarousel />
         {/* <CorePrograms />
         <RoadMap />
         <WhyChooseUs /> */}
@@ -210,6 +212,7 @@ function AboutUs() {
 
       {/* Other sections below About */}
       <Founders />
+      <TrademarkCarousel />
       {/* <CorePrograms />
       <RoadMap />
       <WhyChooseUs /> */}
